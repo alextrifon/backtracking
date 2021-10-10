@@ -24,7 +24,7 @@ def is_valid(puzzle, guess, rand, coloana):
     coloana_start = (coloana // 3) * 3
 
     for r in range(rand_start, rand_start + 3):
-        for c in range(coloana_start, coloana_start+ 3):
+        for c in range(coloana_start, coloana_start + 3):
             if puzzle[r][c] == guess:
                 return False
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
         [-1, 5, -1,    -1, 6, 8,    -1, -1, -1],
         [2, -1, 6,     -1, -1, 3,   -1, -1, 4],
-        [-1, -1 -1,    -1, -1, -1,  -1, -1, 4],
+        [-1, -1, -1,   -1, -1, -1,  -1, -1, 4],
     
         [5, -1, -1,    -1, -1, -1,  -1, -1, -1],
         [6, 7, -1,      1, -1, 5,   -1, 4, -1],
