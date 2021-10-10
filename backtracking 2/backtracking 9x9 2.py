@@ -1,3 +1,5 @@
+from pprint import pprint
+
 def cautare(puzzle):
 
     for r in range(9):
@@ -59,4 +61,4 @@ if __name__ == '__main__':
         [1, -1, 9,     -1, -1, -1,   2, -1, -1],
     ]
     print(rezolvare(exemplu_board))
-    print(exemplu_board)
+    pprint(exemplu_board)
